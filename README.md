@@ -46,6 +46,6 @@ El paquete `java.util.concurrent.ExecutorService` sirve para gestionar y ejecuta
 
 ---
 
-Estas herramientas ...
+Estas herramientas ..
 
 ---
