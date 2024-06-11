@@ -46,6 +46,20 @@ El paquete `java.util.concurrent.ExecutorService` sirve para gestionar y ejecuta
 
 ---
 
-Estas herramientas ..
+Estas herramientas proporcionan una abstracción de alto nivel para la programación concurrente en Java. Con ExecutorService y Callable, los se pueden escribir aplicaciones concurrentes más robustas y escalables, aprovechando eficientemente los recursos del sistema y mejorando el rendimiento general de las aplicaciones.
+
+---
+
+## Marco Fork-Join
+
+El Framework ForkJoin es una parte del paquete `java.util.concurrent` diseñada para aprovechar múltiples procesadores. Permite dividir una tarea grande en tareas más pequeñas (fork) y luego combinarlas (join).
+
+### ForkJoinTask<V>
+
+`ForkJoinTask` Representa una tarea que se va a ejecutar en un ForkJoinPool. Las dos subclases mas comunes son RecursiveAction y RecursiveTask. `RecursiveAction` se usa cuando una tarea no devuelve un resultado. `RecursiveTask` se usa cuando una tarea devuelve un resultado. `ForkJoinPool` es un pool de hilos que ejecuta tareas.
+
+---
+
+Estas herramientas ofrecen una manera poderosa de estructurar y ejecutar operaciones concurrentes en Java, adaptándose eficientemente a entornos de múltiples núcleos y mejorando el rendimiento de las aplicaciones mediante la ejecución paralela de tareas complejas.
 
 ---
